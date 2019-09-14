@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "awm:goop_block" }
+    }
+}
