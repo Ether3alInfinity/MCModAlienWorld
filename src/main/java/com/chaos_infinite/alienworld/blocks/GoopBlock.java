@@ -18,7 +18,7 @@ public class GoopBlock extends BlockBase {
 		setResistance(0.0f);
 		setHarvestLevel("any", 0);
 		setLightLevel(5.0f);
-		setLightOpacity(8);
+		setLightOpacity(0);
 		
 	}
 	
