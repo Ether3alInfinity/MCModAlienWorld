@@ -1,0 +1,10 @@
+{
+    "parent": "block/grass",
+    "textures": {
+        "particle": "awm:blocks/dirt",
+        "bottom": "awm:blocks/dirt",
+        "top": "awm:blocks/alien_grass_top",
+        "side": "awm:blocks/alien_grass_side",
+        "overlay": "awm:blocks/alien_grass_side"
+    }
+}

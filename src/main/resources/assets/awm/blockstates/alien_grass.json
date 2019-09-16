@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "awm:alien_grass" },
+            { "model": "awm:alien_grass", "y": 90 },
+            { "model": "awm:alien_grass", "y": 180 },
+            { "model": "awm:alien_grass", "y": 270 }
+        ]
+    }
+}
