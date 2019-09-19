@@ -1,11 +1,14 @@
 package com.chaos_infinite.alienworld;
 
 import com.chaos_infinite.alienworld.entities.floater.EntityFloater;
+import com.chaos_infinite.alienworld.entities.floater.ModelFloater;
+import com.chaos_infinite.alienworld.entities.floater.RenderFloater;
 import com.chaos_infinite.alienworld.proxy.CommonProxy;
 import com.chaos_infinite.alienworld.util.Reference;
 import com.chaos_infinite.alienworld.util.handlers.RegistryHandler;
 
 import net.minecraft.util.ResourceLocation;
+import net.minecraftforge.fml.client.registry.RenderingRegistry;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -31,6 +34,8 @@ public class Main {
 	
 	@EventHandler
 	public static void init(FMLInitializationEvent event) {
+		RenderingRegistry.registerEntityRenderingHandler(EntityFloater.class, 
+			      new RenderFloater(new ModelFloater(), 0.5F));
 		EntityRegistry.registerModEntity(new ResourceLocation("awm: name") ,EntityFloater.class, "Floater", 0, instance, 80, 3, true, 250, 0);
 	}
 	

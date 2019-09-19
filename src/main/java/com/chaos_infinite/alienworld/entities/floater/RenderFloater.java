@@ -35,7 +35,7 @@ public class RenderFloater extends RenderLiving
 
     protected void setEntityTexture()
     {
-        FloaterTexture = new ResourceLocation("awm:textures/entities/floater/creeper.png");
+        FloaterTexture = new ResourceLocation("awm:textures/entities/floater/floater.png");
     }
 
     /**
@@ -43,7 +43,7 @@ public class RenderFloater extends RenderLiving
     * unless you call Render.bindEntityTexture.
     */
     @Override
-    protected ResourceLocation getEntityTexture(Entity par1Entity)
+	protected ResourceLocation getEntityTexture(Entity par1Entity)
     {
         return FloaterTexture;
     }

@@ -21,8 +21,8 @@ public class ClientProxy extends CommonProxy{
 	}
 	@EventHandler
 	public static void PreInit(FMLPreInitializationEvent event) {
-		RenderingRegistry.registerEntityRenderingHandler(EntityFloater.class, 
-			      new RenderFloater(new ModelFloater(), 0.5F));
+		//RenderingRegistry.registerEntityRenderingHandler(EntityFloater.class, 
+		//	      new RenderFloater(new ModelFloater(), 0.5F));
 
 	}
 }
