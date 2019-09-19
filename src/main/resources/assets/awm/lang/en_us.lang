@@ -5,3 +5,5 @@ tile.goop_block.name=Goop Block
 tile.alien_sand.name=Alien Sand
 tile.silicon_block.name=Silicon Block
 tile.alien_grass.name=Alien Grass Block
+
+entity.Floater.name= Floater
