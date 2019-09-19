@@ -14,7 +14,7 @@ public class EntityFloater extends EntityAnimal {
 	
 	public EntityFloater (World world) {
 		super(world);
-		
+		setSize(2F, 1.5F);
 		
 	}
 

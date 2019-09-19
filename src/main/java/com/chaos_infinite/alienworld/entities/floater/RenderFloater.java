@@ -1,5 +1,7 @@
 package com.chaos_infinite.alienworld.entities.floater;
 
+import org.lwjgl.opengl.GL11;
+
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.model.ModelBase;
 import net.minecraft.client.renderer.entity.RenderLiving;
@@ -31,11 +33,12 @@ public class RenderFloater extends RenderLiving
         // your custom type to make it easier to access fields from your 
         // custom entity, eg. GL11.glScalef(entity.scaleFactor, entity.scaleFactor, 
         // entity.scaleFactor); 
+    	GL11.glScalef(2.2F, 1.5F, 2.2F);
     }
 
     protected void setEntityTexture()
     {
-        FloaterTexture = new ResourceLocation("awm:textures/entities/floater/floater.png");
+        FloaterTexture = new ResourceLocation("awm:textures/entity/floater/floater.png");
     }
 
     /**

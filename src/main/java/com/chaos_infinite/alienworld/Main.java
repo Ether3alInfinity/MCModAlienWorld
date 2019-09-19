@@ -36,7 +36,7 @@ public class Main {
 	public static void init(FMLInitializationEvent event) {
 		RenderingRegistry.registerEntityRenderingHandler(EntityFloater.class, 
 			      new RenderFloater(new ModelFloater(), 0.5F));
-		EntityRegistry.registerModEntity(new ResourceLocation("awm: name") ,EntityFloater.class, "Floater", 0, instance, 80, 3, true, 250, 0);
+		EntityRegistry.registerModEntity(new ResourceLocation("awm:textures/entity/floater/floater.png") ,EntityFloater.class, "Floater", 0, instance, 80, 3, true, 100, 50);
 	}
 	
 	@EventHandler
